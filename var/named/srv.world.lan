@@ -1,0 +1,14 @@
+$TTL 86400
+@   IN  SOA     dlp.srv.world. root.srv.world. (
+        2016051800  ;Serial
+        3600        ;Refresh
+        1800        ;Retry
+        604800      ;Expire
+        86400       ;Minimum TTL
+)
+        IN  NS      dlp.srv.world.
+        IN  A       192.168.0.2
+        IN  MX 10   dlp.srv.world.
+
+dlp     IN  A       192.168.0.2
+www     IN  A       192.168.2.2
